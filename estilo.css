@@ -2,7 +2,7 @@ body {
   padding: 25px;
   margin-left:auto;
   margin-right: 20px;
-  background-image: url("../wood.jpg");
+  background: url("../wood.jpg");
   background-origin: padding-box;
   background-clip: border-box;
   background-repeat: no-repeat;
