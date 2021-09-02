@@ -1,6 +1,6 @@
 body {
   padding: 25px;
-  margin-left:auto;
+  margin-left: auto;
   margin-right: 20px;
   background-image: url(./wood.jpg);
   background-origin: padding-box;
@@ -9,54 +9,53 @@ body {
   background-size: 1950px 1600px;
 }
 
-.calculadora{
-    display:block;
-    margin:0 auto;
-    padding:5px;
-    background-color:rgba(86, 210, 214, 0.8);
-    width:315px;
-    height:520px;
-    border-radius: 15px;
-  }
-  .calculadora td button{
-    display:block;
-    width:72px;
-    height:42px;
-    font-size: 12px;
-  }
+.calculadora {
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: rgba(86, 210, 214, 0.8);
+  width: 315px;
+  height: 520px;
+  border-radius: 15px;
+}
+.calculadora td button {
+  display: block;
+  width: 72px;
+  height: 42px;
+  font-size: 12px;
+}
 
-  .calculadora td input{
-    display:block;
-    width:65px;
-    height:35px;
-    font-size: 12px;
-    text-align: center;
-  }
-  
-  #subtotal1{
-    display:block;
-    width:72px;
-    height:41px;
-    font-size: 12px;
-    text-align: center;
-    background-color: #fff;
-  }
+.calculadora td input {
+  display: block;
+  width: 65px;
+  height: 35px;
+  font-size: 12px;
+  text-align: center;
+}
 
-  #subtotal2{
-    display:block;
-    width:72px;
-    height:41px;
-    font-size: 12px;
-    text-align: center;
-    background-color: #fff;
-    }
+#subtotal1 {
+  display: block;
+  width: 72px;
+  height: 41px;
+  font-size: 12px;
+  text-align: center;
+  background-color: #fff;
+}
 
-  #subtotal3{
-    display:block;
-    width:72px;
-    height:41px;
-    font-size: 12px;
-    text-align: center;
-    background-color: #fff;
-  }
+#subtotal2 {
+  display: block;
+  width: 72px;
+  height: 41px;
+  font-size: 12px;
+  text-align: center;
+  background-color: #fff;
+}
 
+#subtotal3 {
+  display: block;
+  width: 72px;
+  height: 41px;
+  font-size: 12px;
+  text-align: center;
+  background-color: #fff;
+}

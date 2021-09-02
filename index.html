@@ -1,83 +1,100 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Calculadora con JavaScript</title>
-        <link type="text/css" href="estilo.css" rel="stylesheet">
-    </head>
-    <body>
+<html lang="en">
 
-        <table class="calculadora">
-            <tr>
-                <td><button id="Players">Jugadores</button></td>
-                <td><button id="Chipi">Chipi</button></td>
-                <td><button id="Guille">Guille</button></td>
-                <td><button id="Joey">Joey</button></td>
-            </tr>
-            <tr>
-                <td><button id="Corte">Corte</button></td>
-                <td><input type= "number" id="corte1"></input></td>
-                <td><input type= "number" id="corte2"></input></td>
-                <td><input type= "number" id="corte3"></input></td>
-            </tr>
-            <tr>
-                <td><button id="Muerto">Muerto</button></td>
-                <td><input type= "number" id="muerto1"></input></td>
-                <td><input type= "number" id="muerto2"></input></td>
-                <td><input type= "number" id="muerto3"></input></td>
-            </tr>
-            <tr>
-                <td><button id="Comodin">Comodin</button></td>
-                <td><input type= "number" id="comodin1"></input></td>
-                <td><input type= "number" id="comodin2"></input></td>
-                <td><input type= "number" id="comodin3"></input></td>
-            </tr>
-            <tr>
-                <td><button id="Canasta Pura">Canasta Pura</button></td>
-                <td><input type= "number" id="canastapura1"></input></td>
-                <td><input type= "number" id="canastapura2"></input></td>
-                <td><input type= "number" id="canastapura3"></input></td>
-            </tr>
-            <tr>
-                <td><button id="Canasta Impura">Canasta Impura</button></td>
-                <td><input type= "number" id="canastaimpura1"></input></td>
-                <td><input type= "number" id="canastaimpura2"></input></td>
-                <td><input type= "number" id="canastaimpura3"></input></td>
-            </tr>
-            <tr>
-                <td><button id="Numero 1">Numero 1</button></td>
-                <td><input type= "number" id="primero1"></input></td>
-                <td><input type= "number" id="primero2"></input></td>
-                <td><input type= "number" id="primero3"></input></td>
-            </tr>
-            <tr>
-                <td><button id="Numero 2">Numero 2</button></td>
-                <td><input type= "number" id="segundo1"></input></td>
-                <td><input type= "number" id="segundo2"></input></td>
-                <td><input type= "number" id="segundo3"></input></td>
-            </tr>
-            <tr>
-                <td><button id="Numeros 3 al 7">Numeros 3 al 7</button></td>
-                <td><input type= "number" id="chicas1"></input></td>
-                <td><input type= "number" id="chicas2"></input></td>
-                <td><input type= "number" id="chicas3"></input></td>
-            </tr>
-            <tr>
-                <td><button id="Numeros 8 al 13">Numeros 8 al 13</button></td>
-                <td><input type= "number" id="grandes1"></input></td>
-                <td><input type= "number" id="grandes2"></input></td>
-                <td><input type= "number" id="grandes3"></input></td>
-            </tr>
-            <tr>
-                <td><button id="Subtotal">Subtotal</button></td>
-                <td><span id="subtotal1"></span></td>
-                <td><span id="subtotal2"></span></td>
-                <td><span id="subtotal3"></span></td>
-            </tr>          
-        </table>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora con JavaScript</title>
+    <link type="text/css" href="estilo.css" rel="stylesheet">
 
-        <script src="funcionalidad.js"></script>
-    </body>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="theme-color" content="#43a0f7">
+    
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+
+</head>
+
+<body>
+    
+    <table class="calculadora">
+        <tr>
+            <td><button id="Players">Jugadores</button></td>
+            <td><button id="Chipi">Chipi</button></td>
+            <td><button id="Guille">Guille</button></td>
+            <td><button id="Joey">Joey</button></td>
+        </tr>
+        <tr>
+            <td><button id="Corte">Corte</button></td>
+            <td><input type="number" id="corte1"></input></td>
+            <td><input type="number" id="corte2"></input></td>
+            <td><input type="number" id="corte3"></input></td>
+        </tr>
+        <tr>
+            <td><button id="Muerto">Muerto</button></td>
+            <td><input type="number" id="muerto1"></input></td>
+            <td><input type="number" id="muerto2"></input></td>
+            <td><input type="number" id="muerto3"></input></td>
+        </tr>
+        <tr>
+            <td><button id="Comodin">Comodin</button></td>
+            <td><input type="number" id="comodin1"></input></td>
+            <td><input type="number" id="comodin2"></input></td>
+            <td><input type="number" id="comodin3"></input></td>
+        </tr>
+        <tr>
+            <td><button id="Canasta Pura">Canasta Pura</button></td>
+            <td><input type="number" id="canastapura1"></input></td>
+            <td><input type="number" id="canastapura2"></input></td>
+            <td><input type="number" id="canastapura3"></input></td>
+        </tr>
+        <tr>
+            <td><button id="Canasta Impura">Canasta Impura</button></td>
+            <td><input type="number" id="canastaimpura1"></input></td>
+            <td><input type="number" id="canastaimpura2"></input></td>
+            <td><input type="number" id="canastaimpura3"></input></td>
+        </tr>
+        <tr>
+            <td><button id="Numero 1">Numero 1</button></td>
+            <td><input type="number" id="primero1"></input></td>
+            <td><input type="number" id="primero2"></input></td>
+            <td><input type="number" id="primero3"></input></td>
+        </tr>
+        <tr>
+            <td><button id="Numero 2">Numero 2</button></td>
+            <td><input type="number" id="segundo1"></input></td>
+            <td><input type="number" id="segundo2"></input></td>
+            <td><input type="number" id="segundo3"></input></td>
+        </tr>
+        <tr>
+            <td><button id="Numeros 3 al 7">Numeros 3 al 7</button></td>
+            <td><input type="number" id="chicas1"></input></td>
+            <td><input type="number" id="chicas2"></input></td>
+            <td><input type="number" id="chicas3"></input></td>
+        </tr>
+        <tr>
+            <td><button id="Numeros 8 al 13">Numeros 8 al 13</button></td>
+            <td><input type="number" id="grandes1"></input></td>
+            <td><input type="number" id="grandes2"></input></td>
+            <td><input type="number" id="grandes3"></input></td>
+        </tr>
+        <tr>
+            <td><button id="Subtotal">Subtotal</button></td>
+            <td><span id="subtotal1"></span></td>
+            <td><span id="subtotal2"></span></td>
+            <td><span id="subtotal3"></span></td>
+        </tr>
+    </table>
+
+    <script src="funcionalidad.js"></script>
+</body>
+
 </html>
